@@ -1,4 +1,11 @@
-import { Nav, Hero, AboutUs, Services, GetInTouch } from "./components/index";
+import {
+  Nav,
+  Hero,
+  AboutUs,
+  Services,
+  GetInTouch,
+  Footer,
+} from "./components/index";
 
 function App() {
   return (
@@ -8,6 +15,7 @@ function App() {
       <AboutUs />
       <Services />
       <GetInTouch />
+      <Footer />
     </main>
   );
 }
