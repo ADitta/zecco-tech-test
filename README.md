@@ -10,7 +10,7 @@
 
 # Description
 
-This is a static website built following a design, built in react and using Sass to style
+This is a static website built following a design, created in react and using Sass to style.
 
 # How to run this project locally
 
