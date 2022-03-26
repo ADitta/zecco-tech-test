@@ -1,3 +1,3 @@
 import Nav from "./Nav";
-
-export { Nav };
+import Hero from "./Hero";
+export { Nav, Hero };
