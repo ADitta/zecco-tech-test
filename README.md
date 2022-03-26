@@ -1,4 +1,4 @@
-# **Zeco tech test**
+# **Zecco tech test**
 
 # **Built By Asim Ditta**
 
