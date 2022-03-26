@@ -3,6 +3,7 @@ $krona: "Krona One", sans-serif;
 $open-sans: "Open Sans", sans-serif;
 $button-background-color: rgb(226, 222, 222);
 $hero-parapgraph-color: rgb(183, 182, 187);
+$paragraph-color: rgb(181, 189, 190);
 // Global reset
 * {
   margin: 0;
@@ -47,3 +48,4 @@ p {
 @import "./nav";
 @import "./hero";
 @import "./aboutUs";
+@import "./services";
