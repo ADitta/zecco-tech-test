@@ -1,5 +1,11 @@
+import { Nav } from "./components/index";
+
 function App() {
-  return <div className="App">Hello world!</div>;
+  return (
+    <main className="container">
+      <Nav />
+    </main>
+  );
 }
 
 export default App;

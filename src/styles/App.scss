@@ -1,10 +1,17 @@
 // Variables
 $krona: "Krona One", sans-serif;
 $open-sans: "Open Sans", sans-serif;
-
+$button-background-color: rgb(226, 222, 222);
 // Global reset
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: $open-sans;
+  font-weight: 300;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+@import "./nav";
