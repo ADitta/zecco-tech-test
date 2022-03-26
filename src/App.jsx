@@ -1,10 +1,11 @@
-import { Nav, Hero } from "./components/index";
+import { Nav, Hero, AboutUs } from "./components/index";
 
 function App() {
   return (
     <main className="container">
       <Nav />
       <Hero />
+      <AboutUs />
     </main>
   );
 }

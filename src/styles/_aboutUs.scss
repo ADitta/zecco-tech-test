@@ -1,0 +1,24 @@
+.about {
+  padding: 4rem 8rem 6rem;
+
+  &__info-container {
+    display: flex;
+  }
+  &__title-container,
+  &__paragraph-container {
+    flex: 1;
+  }
+  &__title {
+    flex: 1;
+    width: 100%;
+    max-width: 22rem;
+    color: black;
+    font-size: 1.7rem;
+  }
+  &__paragraph {
+    width: 100&;
+    max-width: 30rem;
+    font-weight: 500;
+    padding-right: 1rem;
+  }
+}
