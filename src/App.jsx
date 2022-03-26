@@ -1,4 +1,4 @@
-import { Nav, Hero, AboutUs, Services } from "./components/index";
+import { Nav, Hero, AboutUs, Services, GetInTouch } from "./components/index";
 
 function App() {
   return (
@@ -7,6 +7,7 @@ function App() {
       <Hero />
       <AboutUs />
       <Services />
+      <GetInTouch />
     </main>
   );
 }

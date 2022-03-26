@@ -1,0 +1,62 @@
+.contact {
+  padding: 4rem 8rem;
+  &__flex-container {
+    display: flex;
+  }
+  &__info-container {
+    flex: 1;
+  }
+  &__info {
+    width: 80%;
+  }
+  &__title {
+    color: black;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    max-width: 30rem;
+  }
+  &__form {
+    flex: 1;
+  }
+  &__label,
+  &__input,
+  &__textarea {
+    width: 100%;
+    display: block;
+  }
+  &__input,
+  &__textarea {
+    border: 0.1rem solid rgba($color: grey, $alpha: 0.2);
+  }
+  &__label {
+    color: grey;
+    font-size: 0.8rem;
+  }
+  &__input {
+    padding: 0.7rem 0rem;
+    margin: 0.3rem 0rem 0.7rem;
+  }
+  &__textarea {
+    margin: 0.3rem 0rem 0.7rem;
+    resize: none;
+  }
+  &__paragraph {
+    font-weight: 500;
+    width: 100%;
+    max-width: 24rem;
+  }
+  &__button {
+    margin: 2rem 0;
+    font-family: $krona;
+    background: none;
+    border: 0.1rem solid black;
+    padding: 0.8rem 3.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      background-color: black;
+      color: white;
+    }
+  }
+}
